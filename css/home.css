@@ -51,7 +51,7 @@ header, h1{
     max-width: 150px;
     padding: 0%;
     background-color: whitesmoke;
-    top: 39px;
+    top: 38px;
     display: none;
 }
 
@@ -67,6 +67,24 @@ header, h1{
 .drop-down li a{
     color: steelblue;
 }
+
+/* image ads fade-in animation */
+.images{
+    display: block;
+    width: 1067px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border: 2px solid steelblue;
+}
+.img-1{
+    width: 1067;
+}
+
+.img-2{
+    width: 1067;
+}
+
 
 /* Footer */
 footer{
