@@ -1,12 +1,22 @@
-header{
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(0,0,0,0.685);
+/* body */
+body{
+    font-family: poppins;
+    margin: 0%;
 }
 
-.navigate{
+/* Header */
+header, h1{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(34, 28, 32);
+}
+
+/* Building nav + dropdown menu */
+
+/* nav-bar container set-up */
+#navigate{
     position: sticky;
     top: 0%;
     z-index: 1;
@@ -14,49 +24,54 @@ header{
 
 .menu{
     margin: 0%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
-/*
-.main-bullett{
-    position: absolute;
-}
-*/
+
 .menu li{
     display: inline-block;
     padding: 10px;
 }
 
-.menu li a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    display: inline-block;
-}
-
 .menu li:hover{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.menu > ul > li:hover > ul{ 
-    display:block;
+.menu li a{
+    text-decoration: none;
+    color: white;
 }
 
-.menu ul li ul{
+.menu li:nth-child(2):hover .drop-down, .menu li:nth-child(3):hover .drop-down{
+    display: block;
+}
+
+.drop-down{
     position: absolute;
+    width: auto;
+    max-width: 150px;
+    padding: 0%;
+    background-color: whitesmoke;
+    top: 39px;
     display: none;
-    padding: 0;
-    
-  }
-  
-.menu ul li ul li{
-    padding: 6px 0;
-    background-color: black;
-    height: 25px;
-    line-height: 25px;
-    width: 100%;
-    
 }
 
+.drop-down li{
+    display: block;
+
+}
+
+.drop-down li:hover{
+    background-color: gainsboro;
+}
+
+.drop-down li a{
+    color: steelblue;
+}
+
+/* Footer */
 footer{
     text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 5;
 }
