@@ -69,22 +69,37 @@ header, h1{
 }
 /* Building nav + dropdown menu --End--*/
 
-/* image ads fade-in animation */
-.images{
-    display: block;
-    width: 1067px;
-    margin-left: auto;
+/* creating slider for animated images */
+.slider{
+    width: 60%;
+    height: 400px;
+    background-image: url(../Images/Animation/ani1.jpg);
+    background-size: 100% 100%;
+    margin-left:auto ;
     margin-right: auto;
-    margin-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     border: 2px solid steelblue;
-}
-.img-1{
-    width: 1067;
+    animation: changeImage 15s linear infinite;
 }
 
-.img-2{
-    width: 1067;
-}
+@keyframes changeImage{
+    0%{
+        background-image: url('../Images/Animation/ani1.jpg');
+    }
+    25%{
+        background-image: url('../Images/Animation/ani2.png');
+    }
+    50%{
+        background-image: url('../Images/Animation/ani3.jpg');
+    }
+    75%{
+        background-image: url('../Images/Animation/ani4.jpg');
+    }
+    100%{
+        background-image: url('../Images/Animation/ani5.jpg');
+    }
+}    
 
 
 /* Footer */
