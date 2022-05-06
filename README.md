@@ -3,6 +3,8 @@
 ## About the Assignment
 This project was an individual Assignment to create a 'responsive' E-commerce Web-page and a feed-back form that provides a message on successful submission of a feedback. 
 
+## live link
+[Link](https://thedefiantone17.github.io/AniketSharma-HTMLCSS-GradedCodingAssignment1/)
 
 ## Things Learned
 
